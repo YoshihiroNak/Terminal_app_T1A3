@@ -60,7 +60,7 @@ def welcome():
     print(f"Our {plan2['menu']}  menu includes TACOS, Burritos, Pozole and Sweet Mexican corn cake.\n")
     print(f"Our {plan3['menu']} menu includes Pad Thai, Som Tum, Tom Yum Goong and Banana Roti.\n")
 
-# feature 2
+# feature 1
 
 def show_plan():
     time.sleep(.5)
@@ -82,7 +82,7 @@ def show_drink():
 
 # Plans
 # Users select one of the menu by pressing the number [1 or 2 or 3]
-# feature 3
+# feature 2
 def select_plan():
 
     while True:

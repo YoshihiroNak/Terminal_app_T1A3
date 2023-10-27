@@ -1,10 +1,10 @@
 
 import sys
-import colorama
+# import colorama
 from colorama import Fore
 from functions import (price, welcome, show_plan, show_dish, show_drink, select_plan, select_dish, select_drink)
 import time
-colorama.init(autoreset=True)
+# colorama.init(autoreset=True)
 
 
 # Main 

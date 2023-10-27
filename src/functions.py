@@ -50,6 +50,7 @@ def drink(id, menu, price):
 
 # This function expresses the title of this application
 # And also it shows the 3 types of details of the menus
+# feature 1
 
 def welcome():
     print(pyfiglet.figlet_format("Catering services for your party"))
@@ -58,6 +59,8 @@ def welcome():
     print(f"Our {plan1['menu']} menu includes spring rolls, dumplings, dim-sum and Tofu Pudding.\n")
     print(f"Our {plan2['menu']}  menu includes TACOS, Burritos, Pozole and Sweet Mexican corn cake.\n")
     print(f"Our {plan3['menu']} menu includes Pad Thai, Som Tum, Tom Yum Goong and Banana Roti.\n")
+
+# feature 2
 
 def show_plan():
     time.sleep(.5)
@@ -79,7 +82,7 @@ def show_drink():
 
 # Plans
 # Users select one of the menu by pressing the number [1 or 2 or 3]
-
+# feature 3
 def select_plan():
 
     while True:

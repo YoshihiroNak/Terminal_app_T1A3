@@ -40,6 +40,7 @@ def main():
     end()
 
 # users select to try again or exit
+# feature 4
 def end():
     while True:
         user_exit = input("Please press y/n: ")

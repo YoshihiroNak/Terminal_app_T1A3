@@ -1,6 +1,8 @@
 # Terminal_app_T1A3
+"Catering Services for your party" This is an application that is a food catering planning guide for users.
+The final quote changes depending on the user's selections, and the user can confirm their selections on the final screen.
 
-## Statement of Purpose and Scope
+## Statement of Purpose
 
 ## Target Audience
 
@@ -24,3 +26,4 @@
 
 ## Software Requirements
 
+## Help Documentation

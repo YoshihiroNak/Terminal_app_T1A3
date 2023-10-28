@@ -38,12 +38,71 @@ It also has a function that automatically calculates the information received fr
 
 ## Code Style Guide and Styling Conventions
 
+I followed PEP8 guidelines in coding with python. I wrote the code with a consistent style such as indentation and line length of 79 characters or less.
+
 ## Implementation Plan
+
+I used one of github's features, projects, to manage tasks. kanban style task management was very efficient and gave me a great view of tasks ahead. I prioritized tasks on a small, medium, and large scale as needed.
 
 ## Flow Charts
 
 ## Installation Instructions
 
-## Software Requirements
+Currently, this application is only suppoerted on Linux and macOS. If you are a windows user, please make sure you have WSL Ubuntu on your PC. If you don't have, please follow this guide to install : [WSL Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
+
+### Open the terminal
+
+-Linux systems usually come with Python pre-installed.
+Please check the version following this command.
+
+### Check a version of Python you have installed
+
+```
+python --version
+```
+-If you don't have Python installed or you have a version less than 3.10, please follow this guide to install : [Python](https://www.python.org/downloads/)
+
+-You need to have Bash to run this applocation.
+ Terminal for MacOS and Linux
+ Git Bash for windows
+
+### Copy a file from github and Clone in your terminal
+
+- Please create new file and move into your new file in the termianl.
+
+```
+mkdir newfile
+cd newfile
+```
+
+```
+git clone https://git@github.com:YoshihiroNak/Terminal_app_T1A3.git
+```
+After that,
+
+```
+cd Terminal_app_T1A3
+
+```
+
+```
+bash catering.sh
+```
+
+
+This command executes the following: 
+
+## Dependencies
+
+```
+colorama==0.4.6
+iniconfig==2.0.0
+packaging==23.2
+pluggy==1.3.0
+pyfiglet==1.0.2
+pytest==7.4.3
+pytest-mock==3.12.0
+tenacity==8.2.3
+```
 
 ## Help Documentation

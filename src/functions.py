@@ -56,9 +56,9 @@ def welcome():
     print(pyfiglet.figlet_format("Catering services for your party"))
     print(Fore.LIGHTGREEN_EX +"Please check our catering menus and price list\n"
         "After selecting menus, you can check the total price\n")
-    print(f"Our {plan1['menu']} menu includes spring rolls, dumplings, dim-sum and Tofu Pudding.\n")
-    print(f"Our {plan2['menu']}  menu includes TACOS, Burritos, Pozole and Sweet Mexican corn cake.\n")
-    print(f"Our {plan3['menu']} menu includes Pad Thai, Som Tum, Tom Yum Goong and Banana Roti.\n")
+    print(f"Our {plan1['menu']} menu includes spring rolls, Gyozas, Dim-Sum and Pudding\n")
+    print(f"Our {plan2['menu']} menu includes TACOS, Burritos, Pozole and Corn Cake\n")
+    print(f"Our {plan3['menu']} menu includes Pad Thai, Som Tum, Tom Yum Goong and Roti\n")
 
 # feature 1
 

@@ -1,5 +1,7 @@
 # Terminal_app_T1A3
 
+# [GithubRepo](https://github.com/YoshihiroNak/Terminal_app_T1A3/tree/main/src)
+
 ## Statement of Purpose
 
 "Catering Services for your party" This is an application that is a food catering planning guide for users.
@@ -44,6 +46,44 @@ I followed PEP8 guidelines in coding with python. I wrote the code with a consis
 
 I used one of github's features, projects, to manage tasks. kanban style task management was very efficient and gave me a great view of tasks ahead. I prioritized tasks on a small, medium, and large scale as needed.
 
+### Projects screenshots
+
+#### projects_25th_oct
+
+Checklists includes features:
+Features are function of menu, loops for user input, calculation for total price and confirmation for user.
+
+![projects_25th_oct](/docs/projects_25th_oct.png)
+
+#### projects_26th_oct
+
+![projects_26th_oct](/docs/projects_26th_oct.png)
+
+#### projects_27th_a_oct
+
+![projects_27th_a_oct](/docs/projects_27th_a_oct.png)
+
+
+#### projects_27th_b_oct
+
+
+Deadlines are attached to tasks that should have deadlines in consideration of other tasks.
+
+![projects_27th_b_oct](/docs/projects_27th_b_oct.png)
+
+#### projects_28th_oct
+
+Some tasks are sets with small or medium or large.
+These means that Large, medium, and small represent the amount of work involved in a task.
+Large: 6-8 hours
+Medium: 4-6 hours
+Small: 2-4 hours
+
+![projects_28th_oct](/docs/projects_28th_oct.png)
+#### projects_29th_oct
+
+![projects_29th_oct](/docs/projects_29th_oct.png)
+
 
 ## Help Documentation
 
@@ -51,7 +91,7 @@ Currently, this application is only suppoerted on Linux and macOS. If you are a 
 
 ### Open the terminal
 
--Linux systems usually come with Python pre-installed.
+Linux systems usually come with Python pre-installed.
 Please check the version following this command.
 
 ### Check a version of Python you have installed
@@ -67,13 +107,13 @@ python --version
 
 ### Copy a file from github and Clone in your terminal
 
-- Please create new file and move into your new file in the termianl.
+Please create new file and move into your new file in the termianl.
 
 ```
 mkdir newfile
 cd newfile
 ```
-![Terminal App]()
+![Tgit clone](/docs/gitclone.png)
 ```
 git clone https://git@github.com:YoshihiroNak/Terminal_app_T1A3.git
 ```
@@ -88,6 +128,23 @@ cd Terminal_app_T1A3
 bash catering.sh
 ```
 
+
+```bash
+#!/bin/bash
+if ! [[ -x "$(command -v python3)" ]];
+then
+    echo "Error:
+        You don't have Python. You need to install to run this application.
+        please check out https://installpython3.com/" >&2
+        exit 1
+fi
+
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 main.py 
+deactivate
+```
 
 This command executes the following: 
 

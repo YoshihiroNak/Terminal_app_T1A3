@@ -38,15 +38,14 @@ It also has a function that automatically calculates the information received fr
 
 ## Code Style Guide and Styling Conventions
 
-I followed PEP8 guidelines in coding with python. I wrote the code with a consistent style such as indentation and line length of 79 characters or less.
+I followed PEP8 guidelines in coding with python. I wrote the code with a consistent style such as indentation and line length of 79 characters or less. [PEP8 Style Guide](https://peps.python.org/pep-0008/)
 
 ## Implementation Plan
 
 I used one of github's features, projects, to manage tasks. kanban style task management was very efficient and gave me a great view of tasks ahead. I prioritized tasks on a small, medium, and large scale as needed.
 
-## Flow Charts
 
-## Installation Instructions
+## Help Documentation
 
 Currently, this application is only suppoerted on Linux and macOS. If you are a windows user, please make sure you have WSL Ubuntu on your PC. If you don't have, please follow this guide to install : [WSL Ubuntu](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
 
@@ -74,7 +73,7 @@ python --version
 mkdir newfile
 cd newfile
 ```
-
+![Terminal App]()
 ```
 git clone https://git@github.com:YoshihiroNak/Terminal_app_T1A3.git
 ```
@@ -105,4 +104,4 @@ pytest-mock==3.12.0
 tenacity==8.2.3
 ```
 
-## Help Documentation
+

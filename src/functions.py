@@ -23,6 +23,7 @@ def plan(id, menu, price):
     print(f"Press: {id}")
     print(menu)
     print(f"${price}")
+    print("------------")
 
 # Main dishes
 
@@ -35,6 +36,8 @@ def dish(id, menu, price):
     print(f"Press: {id}")
     print(menu)
     print(f"${price}")
+    print("------------")
+
 
 # Drinks
 
@@ -47,6 +50,8 @@ def drink(id, menu, price):
     print(f"Press: {id}")
     print(menu)
     print(f"${price}")
+    print("------------")
+
 
 # This function expresses the title of this application
 # And also it shows the 3 types of details of the menus
@@ -83,6 +88,7 @@ def show_drink():
 # Plans
 # Users select one of the menu by pressing the number [1 or 2 or 3]
 # feature 2
+
 def select_plan():
 
     while True:

@@ -22,7 +22,7 @@ Catering services are familiar in daily life, and the appliocation is designed t
 
 ## Features of Catering Services
 
-### 1: Display menus and price list
+### 1: Display menu and price list
 
 This feature appears shortly after the application has started. The title can be expressed with more impact by importing pyfiglet. The contents of the menu and price list displayed after the title are managed in advance by a dictionary and are designed to be easily changed. Changes are designed to link to other features.
 
@@ -76,7 +76,7 @@ Deadlines are attached to tasks that should have deadlines in consideration of o
 
 #### projects_28th_oct
 
-Some tasks are sets with small or medium or large.
+Some tasks are set with small or medium or large.
 These means that Large, medium, and small represent the amount of work involved in a task.
 Large: 6-8 hours
 Medium: 4-6 hours
@@ -102,9 +102,10 @@ Please check the version following this command.
 ```
 python --version
 ```
--If you don't have Python installed or you have a version less than 3.10, please follow this guide to install : [Python](https://www.python.org/downloads/)
 
--You need to have Bash to run this applocation.
+- If you don't have Python installed or you have a version less than 3.10, please follow this guide to install : [Python](https://www.python.org/downloads/)
+
+- You need to have Bash to run this applocation.
  Terminal for MacOS and Linux
  Git Bash for windows
 

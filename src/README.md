@@ -4,7 +4,7 @@
 
 # [Source Control Repo](https://github.com/YoshihiroNak/Terminal_app_T1A3/commits/main)
 
-# [Progects](https://github.com/users/YoshihiroNak/projects/1)
+# [Projects](https://github.com/users/YoshihiroNak/projects/1)
 ## Statement of Purpose
 
 "Catering Services for your party" This is an application that is a food catering planning guide for users.

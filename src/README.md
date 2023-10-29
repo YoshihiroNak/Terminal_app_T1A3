@@ -140,6 +140,35 @@ bash catering.sh
 ```
 You run the catering Services Application
 
+### Installation Process
+
+Please make sure where you are located in termainl.
+```
+pwd
+```
+
+```
+/newfile/Terminal_app_T1A3/src
+```
+
+Execute permission is already astivated, However, it can be reenabled with this command.
+
+```
+chomd +x catering.sh
+```
+
+It can be run with this command.
+
+```
+./catering.sh
+```
+
+## How to operate in the apllication
+
+Navigation within the application is simple:
+enter the number 1, 2, 3,
+'y' or 'n' to select Yes or No, and then type only to enter allergies.
+
 ## Dependencies
 
 ```
